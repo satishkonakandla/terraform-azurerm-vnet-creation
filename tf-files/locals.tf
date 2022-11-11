@@ -2,7 +2,7 @@ locals {
   rg_name     = "${var.business_unit}-${var.environment}-${var.azurerm_resource_group}"
   vnet_name   = "${var.business_unit}-${var.environment}-${var.azurerm_virtual_network}"
   subnet_name = "${var.business_unit}-${var.environment}-${var.azurerm_virtual_network}-${var.azurerm_subnet}"
-}
+
   # Use-case-2: Common tags to be assigned to all resources
   service_name = "Demo Services"
   owner = "satishkuma6"
@@ -15,3 +15,4 @@ locals {
     #Tag4 = "Terraform-Cloud-Demo1-Auto-Apply-Test"
     #Tag5 = "Notifications Testing"
   }
+}
