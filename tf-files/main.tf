@@ -1,18 +1,18 @@
 # Provider Block
 provider "azurerm" {
- features {
-}
+  features {
+  }
 }
 resource "azurerm_resource_group" "rg" {
-name = local.rg_name
-location = var.Resource_group_location
+  name     = local.rg_name
+  location = var.Resource_group_location
 }
 # Random String Resource
 resource "random_string" "myrandom" {
-  length = 6
-  upper = false 
+  length  = 6
+  upper   = false
   special = false
-  numeric = false   
+  numeric = false
 }
 
 

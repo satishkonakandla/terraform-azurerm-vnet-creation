@@ -7,13 +7,13 @@ variable "business_unit" {
 variable "environment" {
   description = "Environment Name"
   type        = string
- 
+
 }
 # 3.Resource group name
 variable "azurerm_resource_group" {
   description = "resource_group_name"
   type        = string
- }
+}
 # 4.Resource_group_location
 variable "Resource_group_location" {
   description = "Resource_group_location"
